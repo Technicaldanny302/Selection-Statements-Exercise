@@ -40,7 +40,7 @@
 
             string subject = Console.ReadLine();
 
-            switch (subject.ToLower)
+            switch (subject.ToLower())
             {
                 case "Math":
                     Console.WriteLine("I hate math!");
@@ -61,5 +61,7 @@
                     Console.WriteLine("I dont know that subject");
                     break;
             }
+        }
     }
 }
+
